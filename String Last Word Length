@@ -1,0 +1,9 @@
+   public static void main(String[] args) {
+        String s = "  kiiit word  " ;
+        s = s.trim();
+        String[] n = s.split(" ");
+        int lastIndex = n.length-1;
+        int ans = n[lastIndex].length();
+       System.out.println(ans);//10
+     
+    }
